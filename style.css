@@ -1,0 +1,296 @@
+/****************** Hlavní *****************/
+
+body       {
+     
+            font-family: Tahoma, Arial, Times New Roman, sans-serif;
+            background-color: #FFFEB7;
+            margin: 0;           
+
+           }
+
+a          {transition-duration: 0.25s;}
+
+a.menu     {
+
+            color: black; 
+            text-decoration: none; 
+            border: 1px solid black;
+            font-size: 20px;
+            padding: 10px;
+            transition-duration: 0.25s;
+
+           }
+
+a:hover    {transition-duration: 0.25s; opacity: 0.8;}
+
+img        {border: 1px solid black;}
+img:hover  {cursor: pointer;}
+
+p          {
+
+            margin: 10px;
+
+           }
+
+li         {
+
+            margin: 30px;
+            font-weight: bold;
+
+           }
+
+li.prispevek {
+
+              margin: 0;
+              font-weight: normal;
+
+             }
+
+table      {
+
+            margin: 5px 0;
+
+           }
+
+table.uvod {width: 753px;}
+
+
+td         {
+
+            text-align: left;
+            padding: 2px;
+
+           }
+
+table, td  {border: 1px solid #000;}
+
+tr         {
+
+            padding: 5px;
+
+           }
+
+h1         {
+
+            margin: 0;           
+            text-decoration: underline;
+            font-size: 27px; 
+            color: #000; 
+
+           }
+
+h2         {
+
+            font-size: 10px; 
+            color: #000;
+            margin-top: 100px;
+
+           }
+
+h3         {
+            
+            background: #FFFEB7;
+
+           }
+
+h4         {
+
+            font-style: normal;
+            background: #FFFEB7;
+            color: #6B6B6B;
+
+           }
+
+h1, h2     {text-align: right; padding-right: 10px;}
+
+h3, h4     {
+ 
+            font-size: 18px; 
+            font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+            text-align: center; 
+            margin: 10px; 
+            padding: 5px; 
+            color: #57501F; 
+            border: 1px solid #B8B20F;
+
+           }
+
+/****************** Struktura *****************/
+
+#document  {
+
+            margin: 0px auto 0px; 
+            width: 1050px; 
+            overflow: hidden;
+
+           }
+
+#zahlavi   {
+
+            position: relative;
+            width: 1050px; 
+            height: 180px; 
+            background: url(src/Logo.jpg) no-repeat left; 
+            margin: 20px 0 10px 0;
+ 
+           }
+
+#obsah     {
+
+            overflow: hidden;
+            background: rgb(245, 255, 160);
+            border: 1px solid #c0c0c0;
+            border-radius: 30px;
+            border-bottom-left-radius: 7px;
+            border-bottom-right-radius: 7px;
+ 
+           }
+
+#zapati    {
+ 
+           text-align: center;
+           width: 1048px;
+           border: 1px solid #c0c0c0;
+           margin-top: 20px;
+           border-radius: 7px;
+           border-bottom-left-radius: 0;
+           border-bottom-right-radius: 0;
+           border-bottom: none;
+           background: rgb(245, 255, 160);
+           overflow: hidden;
+
+           }
+
+/****************** Menu *****************/
+
+#menu      {
+ 
+            float: left; 
+            color: black; 
+            width: 250px; 
+            font-family: Times New Roman; 
+            font-size: 20px;
+            background: #F2F18C;
+            border: 1px solid #c0c0c0;
+            border-radius: 7px;
+            margin: 0 0 7px 7px;
+        
+           }
+
+#navigace  {
+
+            list-style-type: none;
+            display: block;
+            overflow: hidden;
+
+           }
+
+
+/****************** Ostatní *****************/
+
+#prispevky {
+ 
+            float: right; 
+            color: black; 
+            width: 775px; 
+            font-family: Times New Roman;
+            font-style: Italic;
+            margin-right: 7px;
+        
+           }
+
+
+#prispevky-celky {
+ 
+                 margin-bottom: 7px;
+                 overflow: hidden;
+                 border: 1px solid #c0c0c0;
+                 background: #E7E270;
+                 border-radius: 7px;              
+        
+                 }
+
+.prispevky-celky-ostatni {
+ 
+                 margin-bottom: 7px;
+                 overflow: hidden;
+                 border: 1px solid #c0c0c0;
+                 background: #E7E270;
+                 border-radius: 7px;              
+        
+                 }
+
+.prispevky {
+
+            text-align: justify; 
+            padding: 10px; 
+            margin: 0;
+            background: url(src/Shadow.png) top no-repeat #F4EF6E;
+            font-family: Arial;
+            font-size: 14px;
+           
+           }
+
+
+.logo1     {
+
+            position: absolute; 
+            top: 50px; 
+            right: 310px;
+
+           }
+
+.logo2     {
+
+            position: absolute; 
+            top: 45px; 
+            right: 15px;
+
+           }
+
+.logo3     {
+
+            position: absolute; 
+            top: 0; 
+            left: 290px;
+
+           }
+
+#navstevnost {
+
+             margin: 10px;
+             text-align: center;
+
+             }
+
+
+.toplist     {
+
+             margin: 10px;
+             text-align: center;
+
+             }
+
+/************ Drobeèková navigace ***********/
+
+#drobecky ul li  {
+
+                  display: inline;
+                  margin: 0;
+                  font-weight: normal;
+              
+
+                 }
+
+#drobecky ul li:before  {content: " > ";}
+#drobecky ul li:first-child:before  {content: "";}
+
+#drobecky ul {
+
+              margin: 0 0 0 275px;
+              padding: 5px 0;
+              font-size: 15px;
+
+             }
+
+ul, #drobecky ul {list-style-type: none;}
